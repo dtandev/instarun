@@ -1,4 +1,4 @@
-# dtandev-running-animation - https://dtanajewski.com
+# InstaRun - https://dtanajewski.com
 # Usage: just <command>
 # Requires: just (https://github.com/casey/just), uv (https://github.com/astral-sh/uv)
 
