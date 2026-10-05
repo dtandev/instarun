@@ -1,4 +1,4 @@
-# dtandev-running-animation
+# InstaRun
 
 Generates an interactive HTML animation of a run (or any GPS activity) from a GPX track, a folder of photos, an event logo and the event name.
 
@@ -9,6 +9,12 @@ By [Dariusz Tanajewski](https://dtanajewski.com).
 ![A generated animation: coloured track on a satellite map, a photo pin, live stats and the elevation profile with camera badges](docs/example-animation.jpg)
 
 The page above comes from a real skating marathon: the track is coloured by pace, the photo pin has appeared because the runner passed it, and the camera badges on the elevation profile mark where the other photos are. The finished file is in [examples/mazurski-maraton-rolkowy](examples/mazurski-maraton-rolkowy).
+
+## Vision
+
+This repository is the prototype of InstaRun, a planned online app: upload a GPX track and a few photos, get back a video of the run, ready to share on Instagram. The design goal is to keep nothing — no account, no stored tracks, no stored photos. The generated video is meant to live only in the browser session that created it; closing the tab clears it. The intent is for the app to act only as a processor of the data the user hands it for that one session, not as a data controller, so no personal data — likeness included — is retained anywhere. This is a design target to build toward, not a legal assessment.
+
+Today the tool runs locally from the command line and produces a self-contained HTML page, not a video — that part is still ahead.
 
 ## Install
 

@@ -1,5 +1,5 @@
 """
-Running animation generator
+InstaRun animation generator
 Builds one self-contained interactive HTML animation from a GPX track, a folder of photos,
 an event logo and the event name. Everything else (stats, colours, photo pins) is automatic.
 

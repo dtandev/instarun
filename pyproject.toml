@@ -1,5 +1,5 @@
 [project]
-name = "dtandev-running-animation"
+name = "instarun"
 version = "0.1.0"
 description = "Interactive HTML animations of running activities from GPX"
 readme = "README.md"
